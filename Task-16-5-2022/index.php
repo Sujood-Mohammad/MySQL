@@ -17,6 +17,7 @@ else {
     echo "error :".mysqli_error($connect);
 }
 $select=mysqli_query( $connect,"SELECT * FROM animal");
+
 ?>
 <table border=1px>
     <tr>
